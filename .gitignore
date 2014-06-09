@@ -1,0 +1,13 @@
+*.swp
+doc/_build
+data/neo4j-test-schema.db/
+paper/turbulence.pdf
+bin/
+.settings/
+target/
+*.aux
+*.bbl
+*.blg
+*.pdf
+*.dvi
+*.log

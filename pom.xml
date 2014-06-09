@@ -1,0 +1,232 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.turbulence</groupId>
+    <artifactId>turbulence</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1.0-SNAPSHOT</version>
+    <name>turbulence</name>
+    <url>https://github.com/adityab/turbulence</url>
+
+    <repositories>
+        <repository>
+            <id>maven</id>
+            <name>Maven Central</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>activemath</id>
+            <name>ATerm repo</name>
+            <url>http://www.activemath.org/public-repository/</url>
+        </repository>
+        <repository>
+            <id>berkeleybop</id>
+            <name>owlapi repo</name>
+            <url>http://code.berkeleybop.org/maven/repository/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>neo4j</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>owlapi</groupId>
+            <artifactId>owlapi</artifactId>
+            <version>3.2.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-server</artifactId>
+            <version>1.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-grizzly2</artifactId>
+            <version>1.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>20041127.091804</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>20040616</version>
+        </dependency>
+
+        <dependency>
+            <groupId>me.prettyprint</groupId>
+            <artifactId>hector-core</artifactId>
+            <version>1.0-3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jdom</groupId>
+            <artifactId>jdom</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>jena-arq</artifactId>
+            <version>2.9.0-incubating</version>
+        </dependency>
+
+   	 	<dependency>
+			<groupId>com.github.ansell.aterms</groupId>
+			<artifactId>aterm-java</artifactId>
+			<version>1.8.2</version>
+		</dependency>
+       <dependency>
+    	<groupId>com.github.ansell.aterms</groupId>
+    	<artifactId>shared-objects</artifactId>
+    	<version>1.4.9-p1</version>
+		</dependency>
+          <dependency>
+			<groupId>com.github.ansell.jjtraveler</groupId>
+			<artifactId>jjtraveler</artifactId>
+			<version>0.6</version>
+		</dependency>   
+
+        <dependency>
+            <groupId>jgrapht</groupId>
+            <artifactId>jgrapht</artifactId>
+            <version>0.7.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-cli</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-core</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-datatypes</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-dig</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-el</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-explanation</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-jena</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-modularity</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-owlapi</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-owlapiv3</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-pellint</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-query</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-rules</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-test</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <executable>java</executable>
+                </configuration>
+            </plugin>
+
+          <!-- For annotations and other Java5 stuff -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
